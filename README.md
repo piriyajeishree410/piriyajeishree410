@@ -48,7 +48,7 @@
 ### Corporate Financial Distress Early-Warning System (Ongoing)
 **Python | FastAPI | Docker | Airflow | DVC | MLflow | GCP Cloud Run**
 
-- Built end-to-end MLOps pipeline for batch model inference
+- Built an end-to-end MLOps pipeline for batch model inference
 - Containerized model-serving APIs with FastAPI + Docker
 - Automated workflows with Airflow
 - Deployed scalable services to GCP Cloud Run
@@ -56,7 +56,17 @@
 
 ---
 
-### Sign Language to Text Conversion System
+### ApplyFlow - Intelligent Job Application Optimization Platform (Ongoing)
+**Python | FastAPI | Streamlit | Docker | Terraform | AWS ECS Fargate | RDS | GitHub Actions**
+
+- Built an end-to-end job ingestion and tracking pipeline with PostgreSQL and a structured application outcome model
+- Containerized services with Docker and deployed to AWS ECS Fargate with RDS PostgreSQL via Terraform
+- Automated CI/CD pipeline with GitHub Actions, including linting, unit tests, and ECR image push
+- Exposed health and metrics endpoints via FastAPI; built an interactive tracking dashboard with Streamlit
+- Implemented CloudWatch custom metrics, alarms, and SNS email alerting for ingestion monitoring
+- Designed multi-user SearchProfile support for personalized job filtering and scoring
+
+### Signlingo - Sign Language to Text Conversion System
 **Python | OpenCV | MediaPipe | Docker | AWS ECS**
 
 - Real-time computer vision inference system
