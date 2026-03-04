@@ -8,12 +8,12 @@
 
 ## Professional Snapshot
 
-- 🔹 2+ years at Cognizant supporting AWS-based microservices
-- 🔹 Improved CI/CD deployment speed by 30% using Jenkins + AWS
-- 🔹 Reduced manual deployment effort by 35% via Terraform + ECS/Fargate
-- 🔹 Maintained 99.9% uptime across 40+ EC2 instances
-- 🔹 Improved release stability by 25% using CloudWatch monitoring & logging
-- 🔹 AWS Certified Cloud Practitioner
+- 2+ years at Cognizant supporting AWS-based microservices
+- Improved CI/CD deployment speed by 30% using Jenkins + AWS
+- Reduced manual deployment effort by 35% via Terraform + ECS/Fargate
+- Maintained 99.9% uptime across 40+ EC2 instances
+- Improved release stability by 25% using CloudWatch monitoring & logging
+- AWS Certified Cloud Practitioner
 
 ---
 
