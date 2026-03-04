@@ -66,6 +66,8 @@
 - Implemented CloudWatch custom metrics, alarms, and SNS email alerting for ingestion monitoring
 - Designed multi-user SearchProfile support for personalized job filtering and scoring
 
+---
+
 ### Signlingo - Sign Language to Text Conversion System
 **Python | OpenCV | MediaPipe | Docker | AWS ECS**
 
