@@ -45,14 +45,33 @@
 
 ## Featured Projects
 
-### Corporate Financial Distress Early-Warning System (Ongoing)
-**Python | FastAPI | Docker | Airflow | DVC | MLflow | GCP Cloud Run**
+### Foresight-ML: Corporate-Financial Distress Early Warning System
 
-- Built an end-to-end MLOps pipeline for batch model inference
-- Containerized model-serving APIs with FastAPI + Docker
-- Automated workflows with Airflow
-- Deployed scalable services to GCP Cloud Run
-- Integrated MLflow + DVC for reproducibility
+Ranked #1 of ~35 graduate teams at Google Cambridge MLOps Expo
+
+**Python | Terraform | GitHub Actions | Airflow | MLflow | 
+DVC | XGBoost | SHAP | GCP Cloud Run | Workload Identity Federation**
+
+Infrastructure & CI/CD Lead — owned all architecture decisions, 
+GCP IAM, and GitOps delivery strategy.
+
+- Chose Airflow over Cloud Scheduler: needed multi-step DAG 
+  dependencies, parallel branches (FRED + SEC ingestion), and 
+  per-task failure isolation — not just cron triggers
+- Chose Workload Identity Federation over static service account 
+  keys: eliminated credential rotation risk and long-lived secret 
+  exposure in CI
+- Provisioned full GCP stack via Terraform: Cloud Run Jobs, GCS, 
+  Artifact Registry, Secret Manager, IAM bindings
+- Built 4 GitHub Actions workflows with Trivy container scanning, 
+  Bandit, SonarCloud, pip-audit, mypy, and Slack release notifications
+- Implemented DVC pipeline stages (split→train→evaluate) with GCS 
+  remote — changing xgboost.yaml automatically reruns only affected 
+  stages
+- Debugged critical inference bug: mlflow.pyfunc.predict() returns 
+  class labels, not probabilities — switched to native XGBoost 
+  predict_proba()[:,1]; the kind of subtle failure that breaks 
+  production silently
 
 ---
 
