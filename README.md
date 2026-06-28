@@ -75,7 +75,7 @@ GCP IAM, and GitOps delivery strategy.
 
 ---
 
-### ApplyFlow - Intelligent Job Application Optimization Platform (Ongoing)
+### ApplyFlow - Intelligent Job Application Optimization Platform
 **Python | FastAPI | Streamlit | Docker | Terraform | AWS ECS Fargate | RDS | GitHub Actions**
 
 - Built an end-to-end job ingestion and tracking pipeline with PostgreSQL and a structured application outcome model
