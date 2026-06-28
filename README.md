@@ -1,8 +1,8 @@
 # Hi, I'm Piriyajeishree Murali Naidu!
 
-🎓 MS in Computer Science @ Northeastern University (2025–Present)  
-☁️ Cloud / DevOps Engineer with 2+ years AWS production experience  
-🔎 Seeking a 2026 Co-op in Site Reliability Engineering or Cloud Infrastructure roles focused on scalable systems and automation.
+- MS in Computer Science @ Northeastern University (2025–Present)
+- Cloud / DevOps Engineer with 2+ years AWS production experience
+- Building production-grade MLOps and cloud infrastructure systems;  open to SRE/Cloud co-ops and graduate TA opportunities in MLOps
 
 ---
 
@@ -105,6 +105,8 @@ GCP IAM, and GitOps delivery strategy.
 - Production-grade CI/CD pipelines
 - Distributed systems & microservices architecture
 - Cloud-native system design
+- MLOps pipeline design, orchestration tradeoffs, and 
+  production ML system reliability
 
 ---
 
